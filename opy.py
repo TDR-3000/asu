@@ -218,7 +218,6 @@ def menu():
         ip = " "
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
-    print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s01%s]. Crack From Public'%(B,H,M,O))
     print ' [%s02%s]. Crack From Follower'%(B,H,M,O))
     print ' [%s03%s]. Crack From likes post'%(B,H,M,O))
