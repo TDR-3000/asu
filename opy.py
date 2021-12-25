@@ -216,7 +216,6 @@ def menu():
         ip = a["query"]
     except KeyError:
         ip = " "
-    print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
