@@ -216,8 +216,17 @@ def menu():
         ip = a["query"]
     except KeyError:
         ip = " "
-    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+    print('%s►%s►%s►[ %sWellcome %s %s]'%(B,H,M,O,n,K))
+    print('%s►%s►%s► %sID : %s'%(B,H,M,O,i))
+    print('%s►%s►%s► %sIP : %s'%(B,H,M,O,ip))
+    print('%s►%s►%s► %sStatus : %s'%(B,H,M,O,status))
+    print('%s►%s►%s► %sName : %s'%(B,H,M,O,users))
+    print('%s►%s►%s► %sEmail : %s'%(B,H,M,O,maile))
+    print('%s►%s►%s► %sKey : %s'%(B,H,M,O,kunci))
+    print('%s►%s►%s► %sJoin Since : %s'%(B,H,M,O,bergabung))
+    print('%s►%s►%s► %sValid until : %s'%(B,H,M,O,kadaluarsa))
+    print('%s►%s►%s► %s◄%s◄%s◄'%(B,H,M,B,H,M))
+
     print ' [%s01%s]. Crack From Public'%(B,H,M,O))
     print ' [%s02%s]. Crack From Follower'%(B,H,M,O))
     print ' [%s03%s]. Crack From likes post'%(B,H,M,O))
