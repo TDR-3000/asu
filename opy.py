@@ -62,9 +62,9 @@ def clear():
 def banner():
     print("""
 \x1b[0;96m_______ _____   ___________________________ 
-\x1b[0;96m___    |___  | / /__  ____/__  ____/___    |  ® \033[0m|| Recode By : Angga Ady
-\x1b[0;96m__  /| |__   |/ / _  / __  _  / __  __  /| |      \033[0m|| Github.com/AnggaXD13
-\x1b[0;96m_  ___ |_  /|  /  / /_/ /  / /_/ /  _  ___ |  \033[0m|| Instagram: https://www.instagram.com/Anggatp55
+\x1b[0;96m___    |___  | / /__  ____/__  ____/___    | ® \033[0m|| Recode By : Angga Ady
+\x1b[0;96m__  /| |__   |/ / _  / __  _  / __  __  /| |   \033[0m|| Github.com/AnggaXD13
+\x1b[0;96m_  ___ |_  /|  /  / /_/ /  / /_/ /  _  ___ |   \033[0m|| Instagram: https://www.instagram.com/Anggatp55
 \x1b[0;96m/_/  |_|/_/ |_/   \____/   \____/   /_/  |_|  \033[0;91mv2.7  \033[0m|| Facebook.com/AnggaXD13
 """)
 def menu_log():
@@ -216,7 +216,7 @@ def menu():
         ip = a["query"]
     except KeyError:
         ip = " "
-    print '___________________________________________________________\n';time.sleep(0.03)
+    print '___________________________________________________________
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
