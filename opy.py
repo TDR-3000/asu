@@ -60,8 +60,9 @@ def clear():
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
 def banner():
-    print(""" _______ _____   ___________________________ 
- \033[0;96m.___    |___  | / /__  ____/__  ____/___    |  ® \033[0m|| Recode By : Angga Ady
+    print("""
+ \033[0;96m._______ _____   ___________________________ 
+ \033[0;96m ___    |___  | / /__  ____/__  ____/___    |  ® \033[0m|| Recode By : Angga Ady
  \033[0;96m __  /| |__   |/ / _  / __  _  / __  __  /| |      \033[0m|| Github.com/AnggaXD13
  \033[0;96m _  ___ |_  /|  /  / /_/ /  / /_/ /  _  ___ |  \033[0m|| Instagram: https://www.instagram.com/Anggatp55
  \033[0;96m /_/  |_|/_/ |_/   \____/   \____/   /_/  |_|  \033[0;91mv2.7  \033[0m|| Facebook.com/AnggaXD13
