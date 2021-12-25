@@ -216,7 +216,6 @@ def menu():
         ip = a["query"]
     except KeyError:
         ip = " "
-    print '___________________________________________________________
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
