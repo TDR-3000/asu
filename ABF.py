@@ -68,7 +68,6 @@ def banner():
 ____________________________________________________
   \033[0m|| Created By Angga Ady 
   \033[0m|| Github.com/AnggaXD13
-____________________________________________________
 """)
 def menu_log():
     os.system('rm -rf token.txt')
